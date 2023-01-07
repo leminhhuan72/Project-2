@@ -175,7 +175,7 @@ class agent:
 
         self.potential_locs.update(locs)
 
-    def update_percept(self, generate_target, compare_loc, force=False):
+    def update_knowledge(self, generate_target, compare_loc, force=False):
 
         self.compare_loc = compare_loc
         removed_lst = set()
@@ -248,9 +248,9 @@ class agent:
         self.current_path = astar(
             self.current_loc, self.potential_loc, self.map, [1, 2, 3, 4])
 
-    def func_2(self, generate_target, update_percept_target, cur_turn):
+    def func_2(self, generate_target, update_knowledge_target, cur_turn):
         message = ''
-        self.update_percept(generate_target, update_percept_target)
+        self.update_knowledge(generate_target, update_knowledge_target)
         total_turn = len(self.current_path)
 
         turn_remain = None
@@ -259,7 +259,7 @@ class agent:
         elif cur_turn < self.pirate.free_turn:
             turn_remain = self.pirate.free_turn - cur_turn
         else:
-            turn_remain = len(astar(update_percept_target,
+            turn_remain = len(astar(update_knowledge_target,
                               self.potential_loc, self.map, [1, 2]))
 
         # Close enough:
@@ -283,8 +283,8 @@ class agent:
             if not self.is_used_teleport:
                 print('tele')
                 message += '\n' + self.teleport(self.potential_loc)
-                self.update_percept(
-                    generate_target, update_percept_target, True)
+                self.update_knowledge(
+                    generate_target, update_knowledge_target, True)
                 self.is_used_teleport = True
                 message += '\n' + self.func_1()
             else:
