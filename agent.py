@@ -281,7 +281,7 @@ class agent:
         # Too far
         else:
             if not self.is_used_teleport:
-                print('tele')
+                print('Teleport')
                 message += '\n' + self.teleport(self.potential_loc)
                 self.update_knowledge(
                     generate_target, update_knowledge_target, True)

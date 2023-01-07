@@ -89,7 +89,7 @@ class game:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     self.run = False
-                    # self.logger.export_log()
+                    self.logger.export_log()
 
                 if event.type == pygame.KEYDOWN and not self.is_gameover:
                     self.TURN += 1
