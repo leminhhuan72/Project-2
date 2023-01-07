@@ -40,7 +40,7 @@ class agent:
         if cur_turn < self.pirate.turn_reveal:
             message += '\n' + \
                 self.func_2(self.current_loc, self.current_loc, cur_turn)
-        elif cur_turn < self.pirate.pointe_turn:
+        elif cur_turn < self.pirate.free_turn:
             message += '\n' + \
                 self.func_2(self.pirate.initial_loc,
                             self.pirate.initial_loc, cur_turn)
@@ -256,8 +256,8 @@ class agent:
         turn_remain = None
         if cur_turn < self.pirate.turn_reveal:
             turn_remain = 999999
-        elif cur_turn < self.pirate.pointe_turn:
-            turn_remain = self.pirate.pointe_turn - cur_turn
+        elif cur_turn < self.pirate.free_turn:
+            turn_remain = self.pirate.free_turn - cur_turn
         else:
             turn_remain = len(astar(update_percept_target,
                               self.potential_loc, self.map, [1, 2]))
