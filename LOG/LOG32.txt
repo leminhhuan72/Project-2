@@ -1,0 +1,117 @@
+
+> Game start
+> The pirate’s prison is going to reveal the at the beginning of the turn 5
+> >The pirate is free at the beginning of the turn 10
+> START TURN 1
+> hint 1: Regions [7, 7, 4] do not contain the treasure
+> Add hint 1 to hint list
+> The agent verified the hint 1, hint 1 is True
+> Agent move 2 to the South
+> END TURN 1
+> START TURN 2
+> hint 2: Row 4 contains the treasure
+> Add hint 2 to hint list
+> The agent verified the hint 2, hint 2 is False
+> Agent move 2 to the West
+> END TURN 2
+> START TURN 3
+> hint 3: The treasure is somewhere in the boundary of region 6 and 7
+> Add hint 3 to hint list
+> The agent verified the hint 3, hint 3 is False
+> Agent move 2 to the West
+> END TURN 3
+> START TURN 4
+> hint 4: The treasure is in a region that has mountain
+> Add hint 4 to hint list
+> Agent move 2 to the South and do a small scan
+> Agent do a large scan
+> END TURN 4
+> START TURN 5
+> hint 5: [(30, 20), (3, 7), (10, 7), (22, 2), (14, 27), (10, 10)] doesn't contain the treasure
+> Add hint 5 to hint list
+> Pirate is in prison (10, 21)
+> Agent teleport to the (10, 21)
+> Agent do a large scan
+> END TURN 5
+> START TURN 6
+> hint 6: Column 31 does not contain the treasure
+> Add hint 6 to hint list
+> Agent move 2 to the South and do a small scan
+> Agent do a large scan
+> END TURN 6
+> START TURN 7
+> hint 7: The treasure is somewhere in an area bounded by 2 tiles from sea
+> Add hint 7 to hint list
+> Agent move 2 to the North
+> Agent do a large scan
+> END TURN 7
+> START TURN 8
+> hint 8: Regions [7, 6] do not contain the treasure
+> Add hint 8 to hint list
+> The agent verified the hint 8, hint 8 is True
+> Agent move 2 to the South and do a small scan
+> END TURN 8
+> START TURN 9
+> hint 9: A small rectangle area (2, 15, 6, 19) that doesn not have the treasure
+> Add hint 9 to hint list
+> The agent verified the hint 9, hint 9 is True
+> Agent move 2 to the South and do a small scan
+> END TURN 9
+> START TURN 10
+> hint 10: [5, 4, 5] that 1 of them has the treasure
+> Add hint 10 to hint list
+> Pirate is free/Pirate moves 2 steps to the North
+> The agent verified the hint 10, hint 10 is False
+> Agent move 2 to the North
+> END TURN 10
+> START TURN 11
+> hint 11: A large rectangle area (4, 13, 12, 21) that has the treasure
+> Add hint 11 to hint list
+> Pirate moves 2 steps to the North
+> The agent verified the hint 11, hint 11 is False
+> Agent move 2 to the North
+> END TURN 11
+> START TURN 12
+> hint 12: From the prison (10, 21), the direction that has the treasure is E
+> Add hint 12 to hint list
+> Pirate moves 2 steps to the West
+> Agent move 2 to the West
+> Agent move 2 to the West
+> END TURN 12
+> START TURN 13
+> hint 13: The treasure is somewhere inside the gap between 2 squares (top, left, bottom, right) [12, 18, 22, 28] and [16, 24, 18, 26]
+> Add hint 13 to hint list
+> Pirate moves 2 steps to the West
+> The agent verified the hint 13, hint 13 is False
+> Agent move 2 to the South and do a small scan
+> END TURN 13
+> START TURN 14
+> hint 14: The treasure is in a region that has mountain
+> Add hint 14 to hint list
+> Pirate moves 2 steps to the West
+> Agent move 2 to the West and do a small scan
+> Agent do a large scan
+> END TURN 14
+> START TURN 15
+> hint 15: The treasure is somewhere in an area bounded by 3 tiles from sea
+> Add hint 15 to hint list
+> Pirate moves 2 steps to the West
+> The agent verified the hint 15, hint 15 is False
+> Agent move 2 to the North
+> END TURN 15
+> START TURN 16
+> hint 16: Row 2 and column 13 do not contain the treasure
+> Add hint 16 to hint list
+> Pirate moves 2 steps to the West
+> The agent verified the hint 16, hint 16 is True
+> Agent move 2 to the South
+> END TURN 16
+> START TURN 17
+> hint 17: [(25, 1), (4, 17), (14, 19), (12, 15), (21, 5), (3, 27), (23, 12), (3, 24), (27, 11), (17, 7)] doesn't contain the treasure
+> Add hint 17 to hint list
+> Pirate moves 2 steps to the West
+> Agent move 2 to the West and do a small scan
+> Agent do a large scan
+> The agent has found the treasure
+> AGENT WIN!
+> END TURN 17

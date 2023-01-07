@@ -1,0 +1,18 @@
+
+> Game start
+> The pirate’s prison is going to reveal the at the beginning of the turn 4
+> >The pirate is free at the beginning of the turn 8
+> START TURN 1
+> hint 1: The treasure is in a region that has mountain
+> Add hint 1 to hint list
+> The agent verified the hint 1, hint 1 is True
+> Agent move 2 to the East and do a small scan
+> END TURN 1
+> START TURN 2
+> hint 2: A large rectangle area (5, 3, 9, 7) that has the treasure
+> Add hint 2 to hint list
+> Agent move 2 to the North
+> Agent do a large scan
+> The agent has found the treasure
+> AGENT WIN!
+> END TURN 2

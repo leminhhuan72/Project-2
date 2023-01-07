@@ -1,0 +1,141 @@
+
+> Game start
+> The pirate’s prison is going to reveal the at the beginning of the turn 6
+> >The pirate is free at the beginning of the turn 12
+> START TURN 1
+> hint 1: Row 65 and column 23 do not contain the treasure
+> Add hint 1 to hint list
+> The agent verified the hint 1, hint 1 is True
+> Agent move 2 to the East
+> END TURN 1
+> START TURN 2
+> hint 2: A large rectangle area (46, 49, 63, 66) that has the treasure
+> Add hint 2 to hint list
+> Agent move 2 to the South and do a small scan
+> Agent do a large scan
+> END TURN 2
+> START TURN 3
+> hint 3: agent is the nearest person to the treasure
+> Add hint 3 to hint list
+> The agent verified the hint 3, hint 3 is True
+> Agent move 2 to the East
+> END TURN 3
+> START TURN 4
+> hint 4: The treasure is somewhere in the boundary of region 8 and 1
+> Add hint 4 to hint list
+> The agent verified the hint 4, hint 4 is False
+> Agent move 2 to the North
+> END TURN 4
+> START TURN 5
+> hint 5: A small rectangle area (39, 18, 47, 26) that doesn not have the treasure
+> Add hint 5 to hint list
+> Agent move 2 to the East and do a small scan
+> Agent do a large scan
+> END TURN 5
+> START TURN 6
+> hint 6: From the prison (38, 5), the direction that has the treasure is W
+> Add hint 6 to hint list
+> Pirate is in prison (38, 5)
+> Agent move 2 to the North
+> Agent move 2 to the North
+> END TURN 6
+> START TURN 8
+> hint 8: A small rectangle area (24, 24, 32, 32) that doesn not have the treasure
+> Add hint 8 to hint list
+> Agent move 2 to the West
+> Agent move 2 to the West
+> END TURN 8
+> START TURN 9
+> hint 9: The treasure is somewhere in an area bounded by 2 tiles from sea
+> Add hint 9 to hint list
+> The agent verified the hint 9, hint 9 is False
+> Agent move 2 to the North
+> END TURN 9
+> START TURN 10
+> hint 10: From the prison (38, 5), the direction that has the treasure is NW
+> Add hint 10 to hint list
+> Agent move 2 to the West and do a small scan
+> Agent do a large scan
+> END TURN 10
+> START TURN 11
+> hint 11: A small rectangle area (22, 28, 30, 36) that doesn not have the treasure
+> Add hint 11 to hint list
+> Agent teleport to the (55, 6)
+> Agent do a large scan
+> END TURN 11
+> START TURN 12
+> hint 12: The treasure is somewhere inside the gap between 2 squares (top, left, bottom, right) [16, 18, 47, 49] and [20, 36, 30, 46]
+> Add hint 12 to hint list
+> Pirate is free/Pirate moves 2 steps to the South
+> The agent verified the hint 12, hint 12 is False
+> Agent move 2 to the North
+> END TURN 12
+> START TURN 13
+> hint 13: The treasure is in a region that has mountain
+> Add hint 13 to hint list
+> Pirate moves 2 steps to the South
+> The agent verified the hint 13, hint 13 is False
+> Agent move 2 to the East
+> END TURN 13
+> START TURN 14
+> hint 14: Column 16 does not contain the treasure
+> Add hint 14 to hint list
+> Pirate moves 2 steps to the South
+> The agent verified the hint 14, hint 14 is True
+> Agent move 2 to the South and do a small scan
+> END TURN 14
+> START TURN 15
+> hint 15: From the prison (38, 5), the direction that has the treasure is SW
+> Add hint 15 to hint list
+> Pirate moves 2 steps to the South
+> The agent verified the hint 15, hint 15 is False
+> Agent move 2 to the South
+> END TURN 15
+> START TURN 16
+> hint 16: A large rectangle area (45, 18, 62, 35) that has the treasure
+> Add hint 16 to hint list
+> Pirate moves 2 steps to the South
+> The agent verified the hint 16, hint 16 is False
+> Agent move 2 to the West
+> END TURN 16
+> START TURN 17
+> hint 17: The treasure is in a region that has mountain
+> Add hint 17 to hint list
+> Pirate moves 2 steps to the South
+> Agent move 2 to the West and do a small scan
+> Agent do a large scan
+> END TURN 17
+> START TURN 18
+> hint 18: The treasure is in a region that has mountain
+> Add hint 18 to hint list
+> Pirate moves 2 steps to the South
+> Agent move 2 to the East and do a small scan
+> Agent do a large scan
+> END TURN 18
+> START TURN 19
+> hint 19: Regions [7, 6, 3] do not contain the treasure
+> Add hint 19 to hint list
+> Pirate moves 2 steps to the South
+> The agent verified the hint 19, hint 19 is True
+> Agent move 2 to the North and do a small scan
+> END TURN 19
+> START TURN 20
+> hint 20: The treasure is somewhere in the boundary of region 10 and 6
+> Add hint 20 to hint list
+> Pirate moves 2 steps to the South
+> Agent move 2 to the South
+> Agent do a large scan
+> END TURN 20
+> START TURN 21
+> hint 21: Right half does not contain the treasure
+> Add hint 21 to hint list
+> Pirate moves 2 steps to the East
+> The agent verified the hint 21, hint 21 is True
+> Agent move 2 to the North and do a small scan
+> END TURN 21
+> START TURN 22
+> hint 22: Regions [9, 5] do not contain the treasure
+> Add hint 22 to hint list
+> Pirate moves 2 steps to the EastThe Pirate has found the treasure
+> PIRATE WON!
+> END TURN 22
